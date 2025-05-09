@@ -37,17 +37,17 @@
 
 ### Project Structure
   medical-ai-api/
-     ├── backend/
-     │   ├── app/               # FastAPI core
-     │   │   ├── ai/            # NLP models
-     │   │   └── api/           # Endpoints
-     ├── frontend/
-     │   ├── src/components/    # React UI
-     │   └── src/services/      # API calls
-     └── docs/                  # Architecture diagrams
+  ├── backend/
+  │   ├── app/               # FastAPI core
+  │   │   ├── ai/            # NLP models
+  │   │   └── api/           # Endpoints
+  ├── frontend/
+  │   ├── src/components/    # React UI
+  │   └── src/services/      # API calls
+  └── docs/                  # Architecture diagrams
 
 ### How It Works
- ```json
+ ```bash
  
  1. **input symptoms json**
     {"symptoms": "fever, cough, chest pain"}
@@ -72,17 +72,17 @@ Add patient history tracking
 HIPAA compliance features
 
 ### Contributing
-   Fork the repo
-   
-   Create a feature branch (git checkout -b feature/new-feature)
-   
-   Submit a PR with detailed description
+Fork the repo
+
+Create a feature branch (git checkout -b feature/new-feature)
+
+Submit a PR with detailed description
 
  ### License
-   MIT © 2024 [Jordan Albarracin]
+MIT © 2024 [Jordan Albarracin]
 
 ### Contact
-   GitHub: jordan-albarracin
+GitHub: jordan-albarracin
 
 LinkedIn: https://www.linkedin.com/in/jordan-albarracin-0b6a34103
 
