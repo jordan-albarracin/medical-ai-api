@@ -37,14 +37,14 @@
 
 ### Project Structure
   medical-ai-api/
-  ├── backend/
-  │   ├── app/               # FastAPI core
-  │   │   ├── ai/            # NLP models
-  │   │   └── api/           # Endpoints
-  ├── frontend/
-  │   ├── src/components/    # React UI
-  │   └── src/services/      # API calls
-  └── docs/                  # Architecture diagrams
+     ├── backend/
+     │   ├── app/               # FastAPI core
+     │   │   ├── ai/            # NLP models
+     │   │   └── api/           # Endpoints
+     ├── frontend/
+     │   ├── src/components/    # React UI
+     │   └── src/services/      # API calls
+     └── docs/                  # Architecture diagrams
 
 ### How It Works
  ```json
