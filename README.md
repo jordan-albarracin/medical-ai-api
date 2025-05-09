@@ -1,7 +1,5 @@
 **Automatically suggests ICD-10 codes, treatments, and required medical tests based on doctor's input.**  
-*(FastAPI + React + Transformers NLP)*  
-
-![Demo GIF](./docs/demo.gif) *// Añade luego un GIF de tu app en acción*
+*(FastAPI + React + Transformers NLP)*
 
 ## ✨ Key Features
 - **ICD-10 Prediction**: Analyzes doctor's notes to suggest accurate diagnoses codes.
@@ -38,29 +36,29 @@
     npm start
 
 ### Project Structure
-medical-ai-api/
-├── backend/
-│   ├── app/               # FastAPI core
-│   │   ├── ai/            # NLP models
-│   │   └── api/           # Endpoints
-├── frontend/
-│   ├── src/components/    # React UI
-│   └── src/services/      # API calls
-└── docs/                  # Architecture diagrams
+  medical-ai-api/
+  ├── backend/
+  │   ├── app/               # FastAPI core
+  │   │   ├── ai/            # NLP models
+  │   │   └── api/           # Endpoints
+  ├── frontend/
+  │   ├── src/components/    # React UI
+  │   └── src/services/      # API calls
+  └── docs/                  # Architecture diagrams
 
 ### How It Works
  ```json
  
- 1. **json**
- {"symptoms": "fever, cough, chest pain"}
+ 1. **input symptoms json**
+    {"symptoms": "fever, cough, chest pain"}
 
  2- **AI system returns:**
- {
-  "icd10": "J18.9",
-  "diagnosis": "Pneumonia, unspecified",
-  "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
-  "required_tests": ["Chest X-ray", "CBC with differential"]
-}
+      {
+        "icd10": "J18.9",
+        "diagnosis": "Pneumonia, unspecified",
+        "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
+        "required_tests": ["Chest X-ray", "CBC with differential"]
+      }
 
 ### Roadmap
 MVP with mock data
@@ -81,7 +79,7 @@ Create a feature branch (git checkout -b feature/new-feature)
 Submit a PR with detailed description
 
  ### License
-MIT © 2024 [Your Name]
+MIT © 2024 [Jordan Albarracin]
 
 ### Contact
 GitHub: jordan-albarracin
