@@ -48,11 +48,13 @@
     └── docs/                  # Architecture diagrams
 
 ### How to Works
-    ```json
+
     1. **input symptoms**
+        ```json
         {"symptoms": "fever, cough, chest pain"}
 
     2- **AI system returns:**
+          ```json
           {
             "icd10": "J18.9",
             "diagnosis": "Pneumonia, unspecified",
