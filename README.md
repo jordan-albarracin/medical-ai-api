@@ -51,7 +51,9 @@
 
     1. **input symptoms**
         ```json
-        {"symptoms": "fever, cough, chest pain"}
+        {
+          "symptoms": "fever, cough, chest pain"
+        }
         ```
 
     2- **AI system returns:**
