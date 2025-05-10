@@ -56,14 +56,15 @@
         }
         ```
 
-    2- **AI system returns:**
-          ```json
-          {
-            "icd10": "J18.9",
-            "diagnosis": "Pneumonia, unspecified",
-            "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
-            "required_tests": ["Chest X-ray", "CBC with differential"]
-          }
+    2. **AI system returns**:
+    ```json
+    {
+      "icd10": "J18.9",
+      "diagnosis": "Pneumonia, unspecified",
+      "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
+      "required_tests": ["Chest X-ray", "CBC with differential"]
+    }
+    ```
 
 ### Roadmap
 MVP with mock data
