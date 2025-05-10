@@ -26,9 +26,9 @@
 ### Installation
 1. **Backend**:
    ```bash
-   cd backend
-   pip install -r requirements.txt
-   uvicorn app.main:app --reload   
+    cd backend
+    pip install -r requirements.txt
+    uvicorn app.main:app --reload   
 2. **Frontend**:
     ```bash
     cd frontend
@@ -36,16 +36,16 @@
     npm start
 
 ### Project Structure
-  ```bash
-  medical-ai-api/
-  ├── backend/
-  │   ├── app/               # FastAPI core
-  │   │   ├── ai/            # NLP models
-  │   │   └── api/           # Endpoints
-  ├── frontend/
-  │   ├── src/components/    # React UI
-  │   └── src/services/      # API calls
-  └── docs/                  # Architecture diagrams
+    ```bash
+    medical-ai-api/
+    ├── backend/
+    │   ├── app/               # FastAPI core
+    │   │   ├── ai/            # NLP models
+    │   │   └── api/           # Endpoints
+    ├── frontend/
+    │   ├── src/components/    # React UI
+    │   └── src/services/      # API calls
+    └── docs/                  # Architecture diagrams
 
 ### How to Works 
  1. **input symptoms json**
