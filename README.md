@@ -49,13 +49,12 @@
 
 ### How to Works
 
-    1. **input symptoms**
+    1. **Input symptoms**:
         ```json
         {
           "symptoms": "fever, cough, chest pain"
         }
         ```
-
     2. **AI system returns**:
     ```json
     {
