@@ -47,9 +47,7 @@
   │   └── src/services/      # API calls
   └── docs/                  # Architecture diagrams
 
-### How It Works
- ```bash
- 
+### How to Works 
  1. **input symptoms json**
     {"symptoms": "fever, cough, chest pain"}
 
