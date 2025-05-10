@@ -36,7 +36,7 @@
     npm start
 
 ### Project Structure
-    ```bash
+  ```bash
   medical-ai-api/
   ├── backend/
   │   ├── app/               # FastAPI core
