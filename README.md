@@ -47,17 +47,19 @@
     │   └── src/services/      # API calls
     └── docs/                  # Architecture diagrams
 
-### How to Works 
- 1. **input symptoms json**
-    {"symptoms": "fever, cough, chest pain"}
+### How to Works
+    ```bash
 
- 2- **AI system returns:**
-      {
-        "icd10": "J18.9",
-        "diagnosis": "Pneumonia, unspecified",
-        "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
-        "required_tests": ["Chest X-ray", "CBC with differential"]
-      }
+    1. **input symptoms**
+        {"symptoms": "fever, cough, chest pain"}
+
+    2- **AI system returns:**
+          {
+            "icd10": "J18.9",
+            "diagnosis": "Pneumonia, unspecified",
+            "treatments": ["Amoxicillin 500mg 3x/day", "Rest"],
+            "required_tests": ["Chest X-ray", "CBC with differential"]
+          }
 
 ### Roadmap
 MVP with mock data
