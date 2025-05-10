@@ -49,7 +49,6 @@
 
 ### How to Works
     ```json
-
     1. **input symptoms**
         {"symptoms": "fever, cough, chest pain"}
 
