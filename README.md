@@ -48,7 +48,7 @@
     └── docs/                  # Architecture diagrams
 
 ### How to Works
-    ```bash
+    ```json
 
     1. **input symptoms**
         {"symptoms": "fever, cough, chest pain"}
